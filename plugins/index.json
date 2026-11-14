@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    {
+      "id": "lamovie-js",
+      "name": "LaMovie (plugin)",
+      "version": "1.0.0",
+      "api": 1,
+      "description": "Películas, series y animes de lamovie.org, y su servidor vimeos.net. El piloto de los plugins: el mismo catálogo que la fuente integrada, escrito en TypeScript.",
+      "url": "lamovie-js-1.0.0.mvp",
+      "sha256": "fedfad8cd9a2bf66b8ffae3da8be56b36fb68c1a0c8ed175116ff0e602ac3faa"
+    }
+  ]
+}
