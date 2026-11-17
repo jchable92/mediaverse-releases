@@ -13,9 +13,9 @@
     {
       "id": "cuevana3",
       "name": "Cuevana 3",
-      "version": "0.6.0",
+      "version": "0.7.0",
       "api": 1,
-      "description": "Películas y series de cuevana3.sc, por la API JSON de su tema. Resuelve los servidores que usaba el Mediaverse anterior (earnvids, streamwish, vidhide, filemoon, voe, doodstream, streamtape, ok.ru, yourupload) con su misma lectura, sus mismas cabeceras, el quitado de la carnada PNG de los segmentos y sus miniaturas; los demás, tal como los publica el sitio.",
+      "description": "Películas y series de cuevana3.sc, por la API JSON de su tema. Resuelve los servidores que usaba el Mediaverse anterior (earnvids, streamwish, vidhide, filemoon, voe, doodstream, streamtape, ok.ru, yourupload) con su misma lectura, y netu, que se reproduce tocando play en su página dentro de la app,, sus mismas cabeceras, el quitado de la carnada PNG de los segmentos y sus miniaturas; los demás, tal como los publica el sitio.",
       "site": "https://cuevana3.sc",
       "language": "es",
       "categories": [
@@ -37,7 +37,8 @@
         "resolver:doodstream",
         "resolver:streamtape",
         "resolver:okru",
-        "resolver:yourupload"
+        "resolver:yourupload",
+        "resolver:netu"
       ],
       "hosts": [
         "cuevana3.sc",
@@ -181,13 +182,23 @@
         "*.wishonly.site",
         "playmogo.com",
         "*.playmogo.com",
-        "*.tiktokcdn.com"
+        "*.tiktokcdn.com",
+        "waaw.to",
+        "*.waaw.to",
+        "netu.tv",
+        "*.netu.tv",
+        "hqq.tv",
+        "*.hqq.tv",
+        "hqq.to",
+        "*.hqq.to",
+        "hqq.ac",
+        "*.hqq.ac"
       ],
-      "browser": "onChallenge",
+      "browser": "always",
       "streamHooks": true,
-      "url": "cuevana3-0.6.0.mvp",
-      "sha256": "056d4aa114d25afa32e8619531794be057916c9ce45bee9a88fc0b19c9750848",
-      "size": 12447,
+      "url": "cuevana3-0.7.0.mvp",
+      "sha256": "f75929d937a6929f3a1624718e5911e584f7a9e08f6378b4e31fb3f3f1156d47",
+      "size": 12974,
       "updated": "2026-11-17"
     },
     {
