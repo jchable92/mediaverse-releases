@@ -1,13 +1,117 @@
 {
+  "format": "mediaverse-repo",
+  "version": 2,
+  "id": "mediaverse",
+  "name": "Mediaverse",
+  "description": "Los plugins oficiales de Mediaverse.",
+  "homepage": "https://github.com/jchable92/mediaverse-releases",
+  "mirrors": [
+    "https://raw.githubusercontent.com/jchable92/mediaverse-releases/main/plugins/",
+    "https://cdn.jsdelivr.net/gh/jchable92/mediaverse-releases@main/plugins/"
+  ],
   "plugins": [
+    {
+      "id": "cuevana3",
+      "name": "Cuevana 3",
+      "version": "0.1.0",
+      "api": 1,
+      "description": "Películas y series de cuevana3.sc, por la API JSON de su tema. Entrega los servidores tal como los publica el sitio.",
+      "site": "https://cuevana3.sc",
+      "language": "es",
+      "categories": [
+        "Películas",
+        "Series"
+      ],
+      "tags": [
+        "películas",
+        "series",
+        "latino"
+      ],
+      "provides": [
+        "catalog"
+      ],
+      "hosts": [
+        "cuevana3.sc",
+        "*.cuevana3.sc"
+      ],
+      "browser": "onChallenge",
+      "streamHooks": false,
+      "url": "cuevana3-0.1.0.mvp",
+      "sha256": "55c820cfc3eb377a42d68a30d521d42be5dd588eb313824001c784be850c9c03",
+      "size": 4654,
+      "updated": "2026-11-17"
+    },
     {
       "id": "lamovie-js",
       "name": "LaMovie (plugin)",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "api": 1,
       "description": "Películas, series y animes de lamovie.org, y su servidor vimeos.net. El piloto de los plugins: el mismo catálogo que la fuente integrada, escrito en TypeScript.",
-      "url": "lamovie-js-1.0.0.mvp",
-      "sha256": "fedfad8cd9a2bf66b8ffae3da8be56b36fb68c1a0c8ed175116ff0e602ac3faa"
+      "site": "https://lamovie.org",
+      "language": "es",
+      "categories": [
+        "Películas",
+        "Series",
+        "Animes"
+      ],
+      "tags": [
+        "películas",
+        "series",
+        "anime",
+        "latino"
+      ],
+      "provides": [
+        "catalog",
+        "resolver:vimeos"
+      ],
+      "hosts": [
+        "lamovie.org",
+        "*.lamovie.org",
+        "vimeos.net",
+        "*.vimeos.net",
+        "*.vimeos.zip"
+      ],
+      "browser": "onChallenge",
+      "streamHooks": false,
+      "url": "lamovie-js-1.1.0.mvp",
+      "sha256": "bcb7fabc3cceb6f1b0427a8bd52fb00b22e7eddf36aa837f12ab23659b7e0036",
+      "size": 5876,
+      "updated": "2026-11-17"
+    },
+    {
+      "id": "sololatino",
+      "name": "SoloLatino",
+      "version": "0.1.1",
+      "api": 1,
+      "description": "Películas, series, animes y doramas de sololatino.net, en español latino. Solo el catálogo por ahora: los servidores de video todavía no.",
+      "site": "https://sololatino.net",
+      "language": "es",
+      "categories": [
+        "Películas",
+        "Series",
+        "Animes",
+        "Doramas"
+      ],
+      "tags": [
+        "películas",
+        "series",
+        "anime",
+        "doramas",
+        "latino"
+      ],
+      "provides": [
+        "catalog"
+      ],
+      "hosts": [
+        "sololatino.net",
+        "*.sololatino.net"
+      ],
+      "browser": "onChallenge",
+      "streamHooks": false,
+      "url": "sololatino-0.1.1.mvp",
+      "sha256": "347d63f2b49ba9f97a857c53ca3934ed6bd9603cf1ef088106f59dd9a3f2ce77",
+      "size": 5344,
+      "updated": "2026-11-17"
     }
   ]
 }
