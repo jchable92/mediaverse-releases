@@ -13,7 +13,7 @@
     {
       "id": "cuevana3",
       "name": "Cuevana 3",
-      "version": "0.5.0",
+      "version": "0.6.0",
       "api": 1,
       "description": "Películas y series de cuevana3.sc, por la API JSON de su tema. Resuelve los servidores que usaba el Mediaverse anterior (earnvids, streamwish, vidhide, filemoon, voe, doodstream, streamtape, ok.ru, yourupload) con su misma lectura, sus mismas cabeceras, el quitado de la carnada PNG de los segmentos y sus miniaturas; los demás, tal como los publica el sitio.",
       "site": "https://cuevana3.sc",
@@ -185,9 +185,9 @@
       ],
       "browser": "onChallenge",
       "streamHooks": true,
-      "url": "cuevana3-0.5.0.mvp",
-      "sha256": "ff51d8777761a1fe84290a58230fe9d594fe6721ceab7a0f8184ec61bad86680",
-      "size": 12205,
+      "url": "cuevana3-0.6.0.mvp",
+      "sha256": "056d4aa114d25afa32e8619531794be057916c9ce45bee9a88fc0b19c9750848",
+      "size": 12447,
       "updated": "2026-11-17"
     },
     {
