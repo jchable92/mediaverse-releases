@@ -523,6 +523,47 @@
       "sha256": "347d63f2b49ba9f97a857c53ca3934ed6bd9603cf1ef088106f59dd9a3f2ce77",
       "size": 5344,
       "updated": "2026-11-17"
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "version": "1.0.0",
+      "api": 1,
+      "description": "YouTube sin cuenta: busca videos, directos, canales y playlists; los canales que sigas (Ajustes del plugin) aparecen en Inicio, y canales y playlists se ven como series. Hasta 1080p con el HLS que YouTube da a su app de Apple Vision Pro (como YoutubeExplode); 360p de su app de Android cuando ese no está.",
+      "site": "https://www.youtube.com",
+      "language": "es",
+      "categories": [
+        "Videos",
+        "En vivo",
+        "Canales",
+        "Playlists"
+      ],
+      "tags": [
+        "videos",
+        "música",
+        "en vivo"
+      ],
+      "provides": [
+        "catalog",
+        "resolver:video"
+      ],
+      "hosts": [
+        "youtube.com",
+        "*.youtube.com",
+        "youtu.be",
+        "youtube-nocookie.com",
+        "*.youtube-nocookie.com",
+        "*.googlevideo.com",
+        "*.ytimg.com",
+        "*.ggpht.com"
+      ],
+      "browser": "none",
+      "streamHooks": false,
+      "minApp": 28,
+      "url": "youtube-1.0.0.mvp",
+      "sha256": "267795502b675496d560700295ac86482b1268caf386be0c3c484cfee1f8c006",
+      "size": 6329,
+      "updated": "2026-11-19"
     }
   ]
 }
