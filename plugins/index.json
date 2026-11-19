@@ -76,7 +76,7 @@
     {
       "id": "cuevana3",
       "name": "Cuevana 3",
-      "version": "0.8.0",
+      "version": "0.8.1",
       "api": 1,
       "description": "Películas y series de cuevana3.sc, por la API JSON de su tema. Resuelve los servidores que usaba el Mediaverse anterior (earnvids, streamwish, vidhide, filemoon, voe, doodstream, streamtape, ok.ru, yourupload) con su misma lectura, y netu, que se reproduce tocando play en su página dentro de la app,, sus mismas cabeceras, el quitado de la carnada PNG de los segmentos y sus miniaturas; los demás, tal como los publica el sitio.",
       "site": "https://cuevana3.sc",
@@ -259,10 +259,10 @@
       ],
       "browser": "always",
       "streamHooks": true,
-      "url": "cuevana3-0.8.0.mvp",
-      "sha256": "0148e537de5346caf8335f067d8de00038215a0d2a6f076ff8b83b48d60133de",
-      "size": 13625,
-      "updated": "2026-11-18"
+      "url": "cuevana3-0.8.1.mvp",
+      "sha256": "1edc46a80ca164955f9bc286c0962f2a0d24e1fac3f8a2e01a5c8d25eac6cd87",
+      "size": 13628,
+      "updated": "2026-11-19"
     },
     {
       "id": "lamovie",
@@ -305,7 +305,7 @@
     {
       "id": "servidores",
       "name": "Servidores",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "api": 1,
       "description": "Los servidores de video que comparten todos los catálogos: streamwish, vidhide, filemoon, earnvids, voe, doodstream, streamtape, ok.ru, yourupload, mp4upload y netu (este se reproduce tocando play en su página dentro de la app). Instálalo junto con cualquier catálogo.",
       "language": "es",
@@ -484,10 +484,10 @@
       "browser": "always",
       "streamHooks": true,
       "minApp": 27,
-      "url": "servidores-1.0.0.mvp",
-      "sha256": "0c5eb957b3cbf52a436ebfe9d1c064c7a1f346effe6826abdf77ace501006e7b",
-      "size": 10192,
-      "updated": "2026-11-18"
+      "url": "servidores-1.0.1.mvp",
+      "sha256": "547c2aa8f6b4be47e6e8c75cafbaeb5134360b1d0aacf2f051ecc7bd744f1061",
+      "size": 10190,
+      "updated": "2026-11-19"
     },
     {
       "id": "sololatino",
