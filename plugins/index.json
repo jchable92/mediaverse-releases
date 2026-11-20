@@ -303,6 +303,34 @@
       "updated": "2026-11-18"
     },
     {
+      "id": "radiobrowser",
+      "name": "Radio Browser",
+      "version": "1.0.0",
+      "api": 1,
+      "description": "Más de 50 000 emisoras de radio por internet de todo el mundo, del directorio comunitario y gratuito radio-browser.info: las más escuchadas de tu país, por género, en tendencia y lo más escuchado del mundo.",
+      "site": "https://www.radio-browser.info",
+      "language": "es",
+      "categories": [],
+      "tags": [
+        "radio",
+        "música",
+        "noticias",
+        "en vivo"
+      ],
+      "provides": [],
+      "hosts": [
+        "radio-browser.info",
+        "*.radio-browser.info"
+      ],
+      "browser": "none",
+      "streamHooks": false,
+      "minApp": 34,
+      "url": "radiobrowser-1.0.0.mvp",
+      "sha256": "e43bf7f28d46f853a4ad3f3d71fd9b15adb4a25801a9daf01789a29547af7e97",
+      "size": 4534,
+      "updated": "2026-11-19"
+    },
+    {
       "id": "servidores",
       "name": "Servidores",
       "version": "1.0.1",
@@ -525,11 +553,47 @@
       "updated": "2026-11-17"
     },
     {
+      "id": "tvpublicamx",
+      "name": "TV pública de México",
+      "version": "1.0.0",
+      "api": 1,
+      "description": "Los canales públicos de México en vivo, con la señal que cada televisora transmite en su propio sitio: Canal 22, Canal Once, TV UNAM, Canal Catorce, Canal del Congreso, los sistemas estatales y las televisoras universitarias. Con la programación donde la televisora la publica.",
+      "site": "https://www.spr.gob.mx",
+      "language": "es",
+      "categories": [],
+      "tags": [
+        "tv",
+        "en vivo",
+        "méxico",
+        "cultura",
+        "noticias"
+      ],
+      "provides": [],
+      "hosts": [
+        "conceptoweb-studio.com",
+        "mxplus.tv",
+        "canaloncetv.s3.amazonaws.com",
+        "canalcatorce.tv",
+        "www.canaldelcongreso.gob.mx",
+        "www.capital21.cdmx.gob.mx",
+        "apptv.buap.mx",
+        "sqcs.com.mx",
+        "www.tvmas.mx"
+      ],
+      "browser": "none",
+      "streamHooks": false,
+      "minApp": 34,
+      "url": "tvpublicamx-1.0.0.mvp",
+      "sha256": "3b117068d5f4d6307e14a5c20c41d1573545f8736069af27720ae78875a7d1d9",
+      "size": 8760,
+      "updated": "2026-11-20"
+    },
+    {
       "id": "youtube",
       "name": "YouTube",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "api": 1,
-      "description": "YouTube sin cuenta: busca videos, directos, canales y playlists; los canales que sigas (Ajustes del plugin) aparecen en Inicio, y canales y playlists se ven como series. Hasta 1080p con el HLS que YouTube da a su app de Apple Vision Pro (como YoutubeExplode); 360p de su app de Android cuando ese no está.",
+      "description": "YouTube y YouTube Music sin cuenta, en la pestaña Música: canciones, álbumes, artistas y listas; también videos, directos y canales (los que sigas en Ajustes del plugin salen primero). Las partes sin música, intros y patrocinios se saltan solas (SponsorBlock y los capítulos del video). Hasta 1080p con el HLS de la app de Apple Vision Pro; si YouTube pide verificación de bot, el navegador de la app la resuelve.",
       "site": "https://www.youtube.com",
       "language": "es",
       "categories": [
@@ -555,14 +619,15 @@
         "*.youtube-nocookie.com",
         "*.googlevideo.com",
         "*.ytimg.com",
-        "*.ggpht.com"
+        "*.ggpht.com",
+        "www.google.com"
       ],
-      "browser": "none",
+      "browser": "always",
       "streamHooks": false,
-      "minApp": 33,
-      "url": "youtube-1.2.0.mvp",
-      "sha256": "1a4376ac5db8bd96f634ce9c302526f935ca7f7b07ff07b77b2d0e6ee36c127a",
-      "size": 6642,
+      "minApp": 34,
+      "url": "youtube-1.3.0.mvp",
+      "sha256": "2370016bf700408f8c0dbe00201bb0834cbec6c9424dccd0c9855ff5c5f05f12",
+      "size": 12507,
       "updated": "2026-11-19"
     }
   ]
