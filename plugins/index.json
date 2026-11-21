@@ -264,14 +264,14 @@
       "browser": "always",
       "streamHooks": true,
       "url": "cuevana3-0.8.3.mvp",
-      "sha256": "87c8b2c52dec1921978a0ea7439590e0552f402cc246c17d3402e232f56f1f7c",
-      "size": 14248,
+      "sha256": "355a38864588f200d9e34b0a56257b75e75cd6cc956c5360ec76f8278e34c40c",
+      "size": 14107,
       "updated": "2026-11-21"
     },
     {
       "id": "lamovie",
       "name": "LaMovie",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "api": 1,
       "description": "Películas, series y animes de lamovie.org, y su servidor vimeos.net. Reemplaza a la fuente integrada (mismo id: la biblioteca guardada con ella sigue abriendo) y al plugin piloto lamovie-js.",
       "site": "https://lamovie.org",
@@ -300,11 +300,11 @@
       ],
       "browser": "onChallenge",
       "streamHooks": false,
-      "minApp": 27,
-      "url": "lamovie-2.0.0.mvp",
-      "sha256": "d2a29a83aec5f895b54a179042783ed98447f57d5baef8deaf3a2f2c9fb77e84",
-      "size": 5891,
-      "updated": "2026-11-18"
+      "minApp": 39,
+      "url": "lamovie-2.0.1.mvp",
+      "sha256": "0bf1d46800300f038a9061b722efd43896f0115b1a9024d6009cd1a1762a60e7",
+      "size": 5884,
+      "updated": "2026-11-21"
     },
     {
       "id": "radiobrowser",
@@ -337,7 +337,7 @@
     {
       "id": "servidores",
       "name": "Servidores",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "api": 1,
       "description": "Los servidores de video que comparten todos los catálogos: streamwish, vidhide, filemoon, earnvids, voe, doodstream, streamtape, ok.ru, yourupload, mp4upload y netu (este se reproduce tocando play en su página dentro de la app). Instálalo junto con cualquier catálogo.",
       "language": "es",
@@ -519,10 +519,10 @@
       ],
       "browser": "always",
       "streamHooks": true,
-      "minApp": 27,
-      "url": "servidores-1.0.3.mvp",
-      "sha256": "e4d79c3c11d7b94cf9b4d3b4ebc42ee0a1ffaabc2db803ddc0a1b9d93127bee7",
-      "size": 10816,
+      "minApp": 39,
+      "url": "servidores-1.0.4.mvp",
+      "sha256": "503e08bededdad76e4cca8d400a93145fd3d211a282a81c2fafe73587174c40d",
+      "size": 10666,
       "updated": "2026-11-21"
     },
     {
