@@ -76,7 +76,7 @@
     {
       "id": "cuevana3",
       "name": "Cuevana 3",
-      "version": "0.8.2",
+      "version": "0.8.3",
       "api": 1,
       "description": "Películas y series de cuevana3.sc, por la API JSON de su tema. Resuelve los servidores que usaba el Mediaverse anterior (earnvids, streamwish, vidhide, filemoon, voe, doodstream, streamtape, ok.ru, yourupload) con su misma lectura, y netu, que se reproduce tocando play en su página dentro de la app,, sus mismas cabeceras, el quitado de la carnada PNG de los segmentos y sus miniaturas; los demás, tal como los publica el sitio.",
       "site": "https://cuevana3.sc",
@@ -263,9 +263,9 @@
       ],
       "browser": "always",
       "streamHooks": true,
-      "url": "cuevana3-0.8.2.mvp",
-      "sha256": "3a398582966a610913de09e2046cfb089a9717179cfe616879be60719e95d725",
-      "size": 14004,
+      "url": "cuevana3-0.8.3.mvp",
+      "sha256": "87c8b2c52dec1921978a0ea7439590e0552f402cc246c17d3402e232f56f1f7c",
+      "size": 14248,
       "updated": "2026-11-21"
     },
     {
@@ -337,7 +337,7 @@
     {
       "id": "servidores",
       "name": "Servidores",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "api": 1,
       "description": "Los servidores de video que comparten todos los catálogos: streamwish, vidhide, filemoon, earnvids, voe, doodstream, streamtape, ok.ru, yourupload, mp4upload y netu (este se reproduce tocando play en su página dentro de la app). Instálalo junto con cualquier catálogo.",
       "language": "es",
@@ -520,9 +520,9 @@
       "browser": "always",
       "streamHooks": true,
       "minApp": 27,
-      "url": "servidores-1.0.2.mvp",
-      "sha256": "25ef0e4919cd939ca2aaf1000d43b81868aac09485fb863fe9d1e2656f759705",
-      "size": 10566,
+      "url": "servidores-1.0.3.mvp",
+      "sha256": "e4d79c3c11d7b94cf9b4d3b4ebc42ee0a1ffaabc2db803ddc0a1b9d93127bee7",
+      "size": 10816,
       "updated": "2026-11-21"
     },
     {
