@@ -264,8 +264,8 @@
       "browser": "always",
       "streamHooks": true,
       "url": "cuevana3-0.8.3.mvp",
-      "sha256": "355a38864588f200d9e34b0a56257b75e75cd6cc956c5360ec76f8278e34c40c",
-      "size": 14107,
+      "sha256": "75a6669c718f962540c06b22aa6f4f00725175aef4b745b26eee5abf8a833311",
+      "size": 14021,
       "updated": "2026-11-21"
     },
     {
@@ -337,7 +337,7 @@
     {
       "id": "servidores",
       "name": "Servidores",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "api": 1,
       "description": "Los servidores de video que comparten todos los catálogos: streamwish, vidhide, filemoon, earnvids, voe, doodstream, streamtape, ok.ru, yourupload, mp4upload y netu (este se reproduce tocando play en su página dentro de la app). Instálalo junto con cualquier catálogo.",
       "language": "es",
@@ -520,9 +520,9 @@
       "browser": "always",
       "streamHooks": true,
       "minApp": 39,
-      "url": "servidores-1.0.4.mvp",
-      "sha256": "503e08bededdad76e4cca8d400a93145fd3d211a282a81c2fafe73587174c40d",
-      "size": 10666,
+      "url": "servidores-1.0.5.mvp",
+      "sha256": "c7b8602e23687c991281dcec51a6d765312b5e3db18dbec18c8ebf4e2dc14c68",
+      "size": 10583,
       "updated": "2026-11-21"
     },
     {
