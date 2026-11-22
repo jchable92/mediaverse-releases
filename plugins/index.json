@@ -599,14 +599,12 @@
     {
       "id": "xvideos",
       "name": "Xvideos",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "api": 1,
-      "description": "Catálogo de xvideos.com: novedades, búsqueda y etiquetas; reproduce el HLS y el MP4 de su CDN.",
+      "description": "Catálogo de xvideos.com en la pestaña +18: novedades, lo mejor del mes, en español, categorías y búsqueda; reproduce el HLS y el MP4 de su CDN.",
       "site": "https://www.xvideos.com",
       "language": "es",
-      "categories": [
-        "Videos"
-      ],
+      "categories": [],
       "tags": [
         "adultos",
         "vídeos"
@@ -621,9 +619,10 @@
       ],
       "browser": "onChallenge",
       "streamHooks": false,
-      "url": "xvideos-0.1.0.mvp",
-      "sha256": "02e89ca87f92d186afd08e468a7dd5b2605cd4410084de6bec93913ea01f3b6d",
-      "size": 3071,
+      "minApp": 41,
+      "url": "xvideos-0.2.0.mvp",
+      "sha256": "ecb43f63b50724201d7fd89f6d32ac60a3837ef1f68dda6c7b8d1fdf6ee03fe9",
+      "size": 3754,
       "updated": "2026-11-21"
     },
     {
