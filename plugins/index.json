@@ -597,9 +597,47 @@
       "updated": "2026-11-20"
     },
     {
+      "id": "vix",
+      "name": "ViX",
+      "version": "0.2.0",
+      "api": 1,
+      "description": "Lo gratis de vix.com (sin lo Premium ni lo en vivo): películas, series, novelas y micronovelas, con las filas de su sección On Demand, búsqueda, géneros, fichas y capítulos. Reproduce lo que ViX deja ver sin DRM: DASH fMP4 claro (y su HLS) de capítulos y películas antiguas; lo que está protegido con Widevine no se ofrece.",
+      "site": "https://vix.com",
+      "language": "es",
+      "categories": [
+        "Películas",
+        "Series",
+        "Novelas",
+        "Micronovelas"
+      ],
+      "tags": [
+        "películas",
+        "series",
+        "novelas",
+        "latino"
+      ],
+      "provides": [
+        "catalog"
+      ],
+      "hosts": [
+        "vix.com",
+        "www.vix.com",
+        "images.vix.com",
+        "*.vix.com",
+        "nxs.mp.lura.live",
+        "*.mp.lura.live"
+      ],
+      "browser": "none",
+      "streamHooks": false,
+      "url": "vix-0.2.0.mvp",
+      "sha256": "42e6b362103722e98524b5aac3dddaa0a538eb45b288c58ea5297231d82eba95",
+      "size": 7605,
+      "updated": "2026-11-21"
+    },
+    {
       "id": "xvideos",
       "name": "Xvideos",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "api": 1,
       "description": "Catálogo de xvideos.com en la pestaña +18: novedades, lo mejor del mes, en español, categorías y búsqueda; reproduce el HLS y el MP4 de su CDN.",
       "site": "https://www.xvideos.com",
@@ -620,9 +658,9 @@
       "browser": "onChallenge",
       "streamHooks": false,
       "minApp": 41,
-      "url": "xvideos-0.2.0.mvp",
-      "sha256": "ecb43f63b50724201d7fd89f6d32ac60a3837ef1f68dda6c7b8d1fdf6ee03fe9",
-      "size": 3754,
+      "url": "xvideos-0.2.1.mvp",
+      "sha256": "d38e72d97a21aa337c27e6ed1031867a00bb4d97a60d9ea69a7be7d60559bc9b",
+      "size": 4176,
       "updated": "2026-11-21"
     },
     {
